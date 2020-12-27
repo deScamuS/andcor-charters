@@ -310,7 +310,7 @@ ul.dropdown-menu li {
   margin-left: 0;
 }
 .rslides_tabs .rslides_here a {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(255, 255, 255);
   color: #fff;
   font-weight: bold;
 }

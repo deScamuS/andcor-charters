@@ -8,7 +8,8 @@ body a {
 html,
 body {
   font-size: 100%;
-  font-family: "Roboto", sans-serif;
+  
+  font-family: 'Montserrat', sans-serif;
 }
 body {
   background: #ffffff;
@@ -66,7 +67,7 @@ body {
   -ms-transition: 0.5s all;
 }
 .agileinfo-social-grids ul li a i.fa.fa-facebook:hover {
-  color: #3b5998;
+  color: #7c89a5;
 }
 .agileinfo-social-grids ul li a i.fa.fa-twitter {
   margin: 0 1em;
@@ -627,8 +628,15 @@ ul.dropdown-menu li {
   letter-spacing: 1px;
   font-weight: 800;
 }
+h2 {
+  color: #ffffff;
+}
+
+ul li {
+  color: #ffffff;
+}
 .agileits-heading p {
-  color: #999999;
+  color: #fcfafa;
   font-size: 0.9em;
   margin: 0;
 }
@@ -1299,8 +1307,7 @@ i.fa.fa-mobile {
   font-size: 0.9em;
 }
 #footer-nav {
-  
-  align-content: center; 
+  align-content: center;
 }
 .agile-footer-grid ul {
   padding: 0;
@@ -1719,31 +1726,33 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
   }
 }
 
-html, body {
-	height: 700px;
+html,
+body {
+  height: 700px;
 }
 smart-date-time-picker {
- 	top: 350px;
-	left: 25%;
-	position: relative;
+  top: 350px;
+  left: 25%;
+  position: relative;
 }
 
 @media only screen and (max-width: 600px) {
-	html, body {
-		height: initial;
-	}
-	
-	.options {
-		display: none;
-	}
-	smart-date-time-picker  {
-		top: 0px;
-		left: 0px;
-	}
+  html,
+  body {
+    height: initial;
+  }
+
+  .options {
+    display: none;
+  }
+  smart-date-time-picker {
+    top: 0px;
+    left: 0px;
+  }
 }
-@media only screen and (max-width: 500px) {  
-	.smart-drop-down.smart-date-time-drop-down {
-		left: 125%;
-	}
+@media only screen and (max-width: 500px) {
+  .smart-drop-down.smart-date-time-drop-down {
+    left: 125%;
+  }
 }
 /*-- //responsive --*/
